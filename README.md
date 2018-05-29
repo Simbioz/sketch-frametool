@@ -1,5 +1,7 @@
 # sketch-frametool
 
+This plugin extracts layer frames as JSON (and more).
+
 _This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
 
 ## Usage
@@ -52,7 +54,7 @@ To customize webpack create `webpack.skpm.config.js` file which exports function
  **/
 module.exports = function(config, isPluginCommand) {
   /** you can change config here **/
-}
+};
 ```
 
 ## Debugging
