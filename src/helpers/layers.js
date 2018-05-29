@@ -15,9 +15,9 @@ export function getClosestFramingRootAncestor(context, layer) {
   const parent = layer.parent;
   if (!parent) {
     // Reached document root without finding anything
-    context.document.showMessage(`⚠️ Must have a parent whose name ends with "[framing-root]"!`);
+    context.document.showMessage(`⚠️ Must have a parent whose name contains "[framing-root]"!`);
     return null;
   }
-  if ((parent.name || "").endsWith("[framing-root]")) return parent;
+  if ((parent.name || "").includes("[framing-root]")) return parent;
   return getClosestFramingRootAncestor(context, parent);
 }
