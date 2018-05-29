@@ -4,13 +4,18 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "Copy Relative Frame as JSON",
-      "identifier": "copy-relative-frame-as-json",
-      "script": "./commands/copy-relative-frame-as-json.js"
+      "name": "Copy Frame as JSON",
+      "identifier": "copy-frame-as-json",
+      "script": "./commands/copy-frame-as-json.js"
+    },
+    {
+      "name": "Copy Normalized Frame as JSON",
+      "identifier": "copy-normalized-frame-as-json",
+      "script": "./commands/copy-normalized-frame-as-json.js"
     }
   ],
   "menu": {
     "title": "Frametool",
-    "items": ["copy-relative-frame-as-json"]
+    "items": ["copy-frame-as-json", "copy-normalized-frame-as-json"]
   }
 }

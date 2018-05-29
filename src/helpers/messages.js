@@ -1,3 +1,3 @@
-export function showCopiedToClipboardMessage(context) {
-  return context.document.showMessage("Copied to clipboard! 🎉");
+export function showCopiedToClipboardMessage(context, name) {
+  return context.document.showMessage(`${name} copied to clipboard! 🎉`);
 }
