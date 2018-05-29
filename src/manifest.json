@@ -4,15 +4,13 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Copy Relative Frame as JSON",
+      "identifier": "copy-relative-frame-as-json",
+      "script": "./commands/copy-relative-frame-as-json.js"
     }
   ],
   "menu": {
-    "title": "sketch-frametool",
-    "items": [
-      "my-command-identifier"
-    ]
+    "title": "Frametool",
+    "items": ["copy-relative-frame-as-json"]
   }
 }
