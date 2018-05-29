@@ -1,0 +1,32 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true // Implicitly enables es6 support in parserOptions (above)
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "semi": ["warn", "always"],
+    "block-spacing": ["warn", "always"],
+    "no-console": "error", // Using the console can cause total mayhem when it isn't available!
+    "no-unused-vars": ["warn", { "vars": "all", "args": "none" }],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }], // Can cause confusion and was removed by some recent languages such as Swift
+    "no-multiple-empty-lines": ["warn", { "max": 1 }], // For cleanliness
+    "no-var": "error", // "var" escapes the scope it's defined in, which can cause duplicate definition issues
+    "no-empty": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "operator-assignment": ["warn", "always"],
+    "spaced-comment": ["warn", "always"],
+    "capitalized-comments": [
+      "warn",
+      "always",
+      { "ignoreConsecutiveComments": true }
+    ],
+    "comma-spacing": "warn",
+    "eqeqeq": "error", // It's recommended to use === to avoid subtle errors
+    "quotes": ["warn", "double", { "allowTemplateLiterals": true }],
+    "prefer-const": "warn"
+  }
+}
