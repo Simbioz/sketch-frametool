@@ -1,5 +1,5 @@
 # build artifacts
-plugin.sketchplugin
+sketch-frametool.sketchplugin
 
 # npm
 node_modules

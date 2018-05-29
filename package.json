@@ -1,16 +1,14 @@
 {
   "name": "sketch-frametool",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=3.0"
   },
   "skpm": {
     "name": "Frametool",
     "manifest": "src/manifest.json",
-    "main": "plugin.sketchplugin",
-    "assets": [
-      "assets/**/*"
-    ]
+    "main": "sketch-frametool.sketchplugin",
+    "assets": ["assets/**/*"]
   },
   "scripts": {
     "build": "skpm-build",
