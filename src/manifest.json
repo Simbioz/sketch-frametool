@@ -9,13 +9,35 @@
       "script": "./commands/copy-frame-as-json.js"
     },
     {
-      "name": "Copy Normalized Frame as JSON",
-      "identifier": "copy-normalized-frame-as-json",
-      "script": "./commands/copy-normalized-frame-as-json.js"
+      "name": "Copy Left Edge Center Position as JSON",
+      "identifier": "copy-left-edge-center-position-as-json",
+      "script": "./commands/copy-left-edge-center-position-as-json.js"
+    },
+    {
+      "name": "Copy Top Edge Center Position as JSON",
+      "identifier": "copy-top-edge-center-position-as-json",
+      "script": "./commands/copy-top-edge-center-position-as-json.js"
+    },
+    {
+      "name": "Copy Right Edge Center Position as JSON",
+      "identifier": "copy-right-edge-center-position-as-json",
+      "script": "./commands/copy-right-edge-center-position-as-json.js"
+    },
+    {
+      "name": "Copy Bottom Edge Center Position as JSON",
+      "identifier": "copy-bottom-edge-center-position-as-json",
+      "script": "./commands/copy-bottom-edge-center-position-as-json.js"
     }
   ],
   "menu": {
     "title": "Frametool",
-    "items": ["copy-frame-as-json", "copy-normalized-frame-as-json"]
+    "items": [
+      "copy-frame-as-json",
+      "-",
+      "copy-left-edge-center-position-as-json",
+      "copy-top-edge-center-position-as-json",
+      "copy-right-edge-center-position-as-json",
+      "copy-bottom-edge-center-position-as-json"
+    ]
   }
 }

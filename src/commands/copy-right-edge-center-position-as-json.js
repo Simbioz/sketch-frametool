@@ -8,12 +8,8 @@ export default function(context) {
   if (!layer) return;
 
   const normalizedFrame = getNormalizedFrame(context, layer);
+  const point = { x: normalizedFrame.x + normalizedFrame.width, y: normalizedFrame.y + normalizedFrame.height / 2.0 };
 
-  copyStringToClipboard(
-    `{"x": ${normalizedFrame.x}, "y": ${normalizedFrame.y}, "width": ${normalizedFrame.width}, "height": ${
-      normalizedFrame.height
-    }}`
-  );
-
-  showCopiedToClipboardMessage(context, "Normalized frame");
+  copyStringToClipboard(`{"x": ${point.x}, "y": ${point.y}}`);
+  showCopiedToClipboardMessage(context, "Left edge center position");
 }
