@@ -9,6 +9,11 @@
       "script": "./commands/copy-frame-as-json.js"
     },
     {
+      "name": "Copy Center Position as JSON",
+      "identifier": "copy-center-position-as-json",
+      "script": "./commands/copy-center-position-as-json.js"
+    },
+    {
       "name": "Copy Left Edge Center Position as JSON",
       "identifier": "copy-left-edge-center-position-as-json",
       "script": "./commands/copy-left-edge-center-position-as-json.js"
@@ -33,6 +38,8 @@
     "title": "Frametool",
     "items": [
       "copy-frame-as-json",
+      "-",
+      "copy-center-position-as-json",
       "-",
       "copy-left-edge-center-position-as-json",
       "copy-top-edge-center-position-as-json",
