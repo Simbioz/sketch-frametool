@@ -11,5 +11,5 @@ export default function(context) {
   const point = { x: normalizedFrame.x + normalizedFrame.width / 2.0, y: normalizedFrame.y };
 
   copyStringToClipboard(`{"x": ${point.x}, "y": ${point.y}}`);
-  showCopiedToClipboardMessage(context, "Left edge center position");
+  showCopiedToClipboardMessage(context, "Top edge center position");
 }
