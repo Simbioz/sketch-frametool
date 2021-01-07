@@ -32,6 +32,26 @@
       "name": "Copy Bottom Edge Center Position as JSON",
       "identifier": "copy-bottom-edge-center-position-as-json",
       "script": "./commands/copy-bottom-edge-center-position-as-json.js"
+    },
+    {
+      "name": "Copy Top Left Corner Position as JSON",
+      "identifier": "copy-top-left-corner-position-as-json",
+      "script": "./commands/copy-top-left-corner-position-as-json.js"
+    },
+    {
+      "name": "Copy Top Right Corner Position as JSON",
+      "identifier": "copy-top-right-corner-position-as-json",
+      "script": "./commands/copy-top-right-corner-position-as-json.js"
+    },
+    {
+      "name": "Copy Bottom Right Corner Position as JSON",
+      "identifier": "copy-bottom-right-corner-position-as-json",
+      "script": "./commands/copy-bottom-right-corner-position-as-json.js"
+    },
+    {
+      "name": "Copy Bottom Left Corner Position as JSON",
+      "identifier": "copy-bottom-left-corner-position-as-json",
+      "script": "./commands/copy-bottom-left-corner-position-as-json.js"
     }
   ],
   "menu": {
@@ -44,7 +64,12 @@
       "copy-left-edge-center-position-as-json",
       "copy-top-edge-center-position-as-json",
       "copy-right-edge-center-position-as-json",
-      "copy-bottom-edge-center-position-as-json"
+      "copy-bottom-edge-center-position-as-json",
+      "-",
+      "copy-top-left-corner-position-as-json",
+      "copy-top-right-corner-position-as-json",
+      "copy-bottom-right-corner-position-as-json",
+      "copy-bottom-left-corner-position-as-json"
     ]
   }
 }
