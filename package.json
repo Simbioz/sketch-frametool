@@ -14,14 +14,16 @@
   },
   "scripts": {
     "build": "skpm-build",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "watch": "skpm-build --watch",
     "start": "skpm-build --watch --run",
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.7.11",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.17.0"
+    "@skpm/builder": "^0.9.5",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0"
   },
   "author": "Michaël Fortin <fortinmike@irradiated.net>"
 }
